@@ -1,0 +1,36 @@
+.gradient-background {
+    background: linear-gradient(300deg,red, orange, rgb(170, 14, 187));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+section {
+    height: auto;
+}
+.divider---full---black {
+    width: 960px;
+    height: 1px;
+    background-color: #222;
+    margin-top: 96px;
+    margin-bottom: 0;
+    padding-top: 0;
+    
+}
+.ola {
+    color: #50C878;
+}
+.col {
+    width: 408px;
+    height: 354px;
+}
