@@ -34,3 +34,7 @@ section {
     width: 408px;
     height: 354px;
 }
+h1, p, h4 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
